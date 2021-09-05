@@ -1,0 +1,1 @@
+export const API_URL = "https://jc-test-do.dev.elenas.la/gql/"
