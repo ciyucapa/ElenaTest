@@ -7,6 +7,7 @@ import useStates from '../hooks/useStates';
 
 const useCustomerCreate = (props = {}) => {
     const {customerId = null} = props;
+    
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [cellphone, setCellphone] = useState('');
@@ -17,8 +18,8 @@ const useCustomerCreate = (props = {}) => {
 
     const {states} = useStates();
 
-    const [CreateClient, resultCreateClient] = useMutation(CREATE_CLIENT, updateCacheCreateCustomer);
-    const [UpdateClient, resultUpdateClient] = useMutation(UPDATE_CLIENT);
+    const [CreateClient] = useMutation(CREATE_CLIENT, updateCacheCreateCustomer);
+    const [UpdateClient] = useMutation(UPDATE_CLIENT);
 
     const onChangeFirstName = (event) => {
         setFirstName(event.target.value);
@@ -148,9 +149,7 @@ const useCustomerCreate = (props = {}) => {
 
             await event({variables})
             window.location.replace('/');
-        } catch (error) {
-            console.log(error);
-        }
+        } catch {}
     }, [
         firstName, 
         lastName, 

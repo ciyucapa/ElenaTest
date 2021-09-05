@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 import sg from '../config/singlenton';
 import userContext from '../contexts/user';
 
+/**
+ * Componente HOC que añade los contextos
+ */
 const Contexts = (props) => {
     const {children} = props;
     const {UserProvider, useUser} = userContext();
@@ -18,7 +21,10 @@ const Contexts = (props) => {
 };
 
 Contexts.propTypes = {
-  children: PropTypes.any.isRequired,
+    /**
+     * Componente hijo
+     */
+    children: PropTypes.any.isRequired,
 };
 
 export default Contexts;

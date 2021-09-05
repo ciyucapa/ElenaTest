@@ -8,13 +8,11 @@ const useStates = () => {
 
     const states = useMemo(() => {
         return data && data.states ? 
-            data.states.map((state) => {
-                return {
-                    ...state,
-                    label: state.name,
-                    value: state.id,
-                };
-            }) : 
+            data.states.map((state) => ({
+                ...state,
+                label: state.name,
+                value: state.id,
+            })) : 
             [];
     }, [data])
 

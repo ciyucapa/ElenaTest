@@ -8,10 +8,12 @@ import {LOGIN} from '../graphql/mutations';
 const useLogin = () => {
     const history = useHistory();
     const {user, updateUser} = useUser();
+
     const [phone, setPhone] = useState('');
     const [password, setPassword] = useState('');
     const [isError, setError] = useState(false);
     const [isSuccesfull, setSuccesfull] = useState(false);
+    
     const [Login, result] = useMutation(LOGIN);
 
     useEffect(() => {

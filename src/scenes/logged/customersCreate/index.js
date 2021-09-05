@@ -6,7 +6,6 @@ import CustomersCreate from './customersCreate';
  */
  const Create = () => {
     const hook = useCustomersCreate();
-    console.log(hook)
     return <CustomersCreate {...hook} />;
 };
 

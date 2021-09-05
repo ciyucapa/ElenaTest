@@ -5,6 +5,9 @@ import Button from '../../../components/commons/button';
 import SelectField from '../../../components/commons/select';
 import {CreateBox} from '../../../components/commons/styledComponents';
 
+/**
+ * Componente que permite crear o editar un cliente
+ */
 const CustomersCreate = (props) => (
     <CreateBox>
         <InputField 
@@ -58,21 +61,61 @@ const CustomersCreate = (props) => (
 )
 
 CustomersCreate.propTypes = {
+    /**
+     * Nombres
+     */
     firstName: Proptypes.string,
+    /**
+     * Apellidos
+     */
     lastName: Proptypes.string,
+    /**
+     * Telefono
+     */
     cellphone: Proptypes.string,
+    /**
+     * Direccion
+     */
     streetAddress: Proptypes.string,
+    /**
+     * Pais
+     */
     country: Proptypes.string,
-    state: Proptypes.shape({
-        label: Proptypes.string,
-    }),
+    /**
+     * Departamento
+     */
+    state: Proptypes.string,
+    /**
+     * validez del formulario para enviar
+     */
     isValidForm: Proptypes.bool,
+    /**
+     * Funcion que actualiza los nombres
+     */
     onChangeFirstName: Proptypes.func,
+    /**
+     * Funcion que actualiza los apellidos
+     */
     onChangeLastName: Proptypes.func,
+    /**
+     * Funcion que actualiza el telefono
+     */
     onChangeCellphone: Proptypes.func,
+    /**
+     * Funcion que actualiza la direccion
+     */
     onChangeStreetAddress: Proptypes.func,
+    /**
+     * Funcion que actualiza el pais
+     */
     onChangeCountry: Proptypes.func,
+    /**
+     * Funcion que actualiza el departamento
+     */
     onChangeState: Proptypes.func,
+    /**
+     * Funcion que crea o edita un cliente
+     */
     onClick: Proptypes.func,
 };
 
@@ -82,9 +125,7 @@ CustomersCreate.defaultProps = {
     cellphone: '',
     streetAddress: '',
     country: '',
-    state: {
-        label: '',
-    },
+    state: '',
     isValidForm: false,
     onChangeFirstName: () => {},
     onChangeLastName: () => {},

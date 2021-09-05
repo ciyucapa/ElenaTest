@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 /**
  * Componente que renderiza un boton basico
  */
-
 const Button = (props) => (
     <button 
         onClick={props.onClick} 

@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 /**
  * Componente que renderiza un input
  */
-
 const InputField = (props) => (
     <input 
         type={props.type} 
