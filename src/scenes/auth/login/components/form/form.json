@@ -1,0 +1,92 @@
+{
+    "src\\scenes\\auth\\login\\components\\form\\index.js": {
+      "description": "Formulario de Login.",
+      "displayName": "Form",
+      "methods": [],
+      "props": {
+        "phone": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Valor del telefono."
+        },
+        "password": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Valor de la contraseña.",
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          }
+        },
+        "isValidForm": {
+          "type": {
+            "name": "bool"
+          },
+          "required": false,
+          "description": "Identifica si el formulario es valido para enviar.",
+          "defaultValue": {
+            "value": "false",
+            "computed": false
+          }
+        },
+        "isError": {
+          "type": {
+            "name": "bool"
+          },
+          "required": false,
+          "description": "Identifica si ocurrio un error al enviar el formulario.",
+          "defaultValue": {
+            "value": "false",
+            "computed": false
+          }
+        },
+        "changePhone": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": "Funcion que modifica el valor del telefono."
+        },
+        "changePassword": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": "Funcion que modifica la contraseña.",
+          "defaultValue": {
+            "value": "() => {}",
+            "computed": false
+          }
+        },
+        "login": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": "Funcion que envia el formulario.",
+          "defaultValue": {
+            "value": "() => {}",
+            "computed": false
+          }
+        },
+        "cellphone": {
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          },
+          "required": false
+        },
+        "changeCellphone": {
+          "defaultValue": {
+            "value": "() => {}",
+            "computed": false
+          },
+          "required": false
+        }
+      }
+    }
+  }

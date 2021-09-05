@@ -1,0 +1,53 @@
+{
+    "src\\components\\commons\\input\\index.js": {
+      "description": "Componente que renderiza un input",
+      "displayName": "InputField",
+      "methods": [],
+      "props": {
+        "type": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Tipo del input.",
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          }
+        },
+        "value": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Valor del input.",
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          }
+        },
+        "placeholder": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Contenido del placeholder",
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          }
+        },
+        "onChangeInput": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": "Funcion que modifica el value input.",
+          "defaultValue": {
+            "value": "() => {}",
+            "computed": false
+          }
+        }
+      }
+    }
+  }

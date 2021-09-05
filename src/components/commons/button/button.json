@@ -1,0 +1,42 @@
+{
+    "src\\components\\commons\\button\\index.js": {
+      "description": "Componente que renderiza un boton basico",
+      "displayName": "Button",
+      "methods": [],
+      "props": {
+        "text": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Texto del boton",
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          }
+        },
+        "isDisabled": {
+          "type": {
+            "name": "bool"
+          },
+          "required": false,
+          "description": "Desabilita el boton cuando es requerido",
+          "defaultValue": {
+            "value": "false",
+            "computed": false
+          }
+        },
+        "onClick": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": "Funcion que ejecuta el boton",
+          "defaultValue": {
+            "value": "() => {}",
+            "computed": false
+          }
+        }
+      }
+    }
+  }

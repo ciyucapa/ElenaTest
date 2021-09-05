@@ -1,0 +1,161 @@
+{
+    "description": "Componente que permite crear o editar un cliente",
+    "displayName": "CustomersCreate",
+    "methods": [],
+    "props": {
+      "firstName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Nombres",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "lastName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Apellidos",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "cellphone": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Telefono",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "streetAddress": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Direccion",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "country": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Pais",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "state": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Departamento",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "isValidForm": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "validez del formulario para enviar",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "onChangeFirstName": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que actualiza los nombres",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "onChangeLastName": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que actualiza los apellidos",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "onChangeCellphone": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que actualiza el telefono",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "onChangeStreetAddress": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que actualiza la direccion",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "onChangeCountry": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que actualiza el pais",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "onChangeState": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que actualiza el departamento",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "onClick": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que crea o edita un cliente",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      }
+    }
+  }

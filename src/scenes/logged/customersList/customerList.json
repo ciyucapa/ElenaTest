@@ -1,0 +1,40 @@
+{
+    "description": "Componente que permite listar clientes",
+    "displayName": "CustomersList",
+    "methods": [],
+    "props": {
+      "customers": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Clientes",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "toCustomerEdit": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que navega a la pantalla de edicion de un cliente",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      },
+      "toCreate": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Funcion que navega a la pantalla de creacion de un cliente",
+        "defaultValue": {
+          "value": "() => {}",
+          "computed": false
+        }
+      }
+    }
+  }

@@ -1,0 +1,20 @@
+{
+    "src\\components\\commons\\text\\index.js": {
+      "description": "Componente que permite renderizar un texto",
+      "displayName": "TextField",
+      "methods": [],
+      "props": {
+        "text": {
+          "type": {
+            "name": "string"
+          },
+          "required": false,
+          "description": "Define el contenido del texto",
+          "defaultValue": {
+            "value": "''",
+            "computed": false
+          }
+        }
+      }
+    }
+  }
