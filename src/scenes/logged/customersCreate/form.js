@@ -1,3 +1,4 @@
+import React from 'react';
 import Proptypes from 'prop-types';
 
 import InputField from '../../../components/commons/input';
@@ -8,7 +9,7 @@ import {CreateBox} from '../../../components/commons/styledComponents';
 /**
  * Componente que permite crear o editar un cliente
  */
-const CustomersCreate = (props) => (
+const Form = (props) => (
     <CreateBox>
         <InputField 
             placeholder="Nombres" 
@@ -60,7 +61,7 @@ const CustomersCreate = (props) => (
     </CreateBox>
 )
 
-CustomersCreate.propTypes = {
+Form.propTypes = {
     /**
      * Nombres
      */
@@ -85,6 +86,10 @@ CustomersCreate.propTypes = {
      * Departamento
      */
     state: Proptypes.string,
+    /**
+     * Ciudades
+     */
+    cities: Proptypes.array,
     /**
      * validez del formulario para enviar
      */
@@ -119,13 +124,14 @@ CustomersCreate.propTypes = {
     onClick: Proptypes.func,
 };
 
-CustomersCreate.defaultProps = {
+Form.defaultProps = {
     firstName: '',
     lastName: '',
     cellphone: '',
     streetAddress: '',
     country: '',
     state: '',
+    cities: [],
     isValidForm: false,
     onChangeFirstName: () => {},
     onChangeLastName: () => {},
@@ -136,4 +142,4 @@ CustomersCreate.defaultProps = {
     onClick: () => {},
 };
 
-export default CustomersCreate;
+export default Form;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component render input component 1`] = `
+<input
+  onChange={[Function]}
+  placeholder="input placeholder"
+  type="text"
+  value="value input"
+/>
+`;

@@ -1,12 +1,14 @@
+import React from 'react';
 import useCustomersCreate from '../../../hooks/useCustomersCreate';
-import CustomersCreate from './customersCreate';
+
+import Form from './form';
 
 /**
  * Crear de clientes.
  */
  const Create = () => {
     const hook = useCustomersCreate();
-    return <CustomersCreate {...hook} />;
+    return <Form {...hook} />;
 };
 
 export default Create;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer create form component render Customer create form component 1`] = `
+<div
+  className="sc-gKseQn fqbNkd"
+>
+  <input
+    onChange={[Function]}
+    placeholder="Nombres"
+    type="text"
+    value="Test"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Apellidos"
+    type="text"
+    value="Lastname test"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Telefono"
+    type="text"
+    value="+578484545"
+  />
+  <select
+    onChange={[Function]}
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Dirección"
+    type="text"
+    value="Address"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Pais"
+    type="text"
+    value="test"
+  />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Enviar
+  </button>
+</div>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer list component render Customer list component 1`] = `
+Array [
+  <div
+    className="sc-eCstlR eYWUDk"
+  >
+    <div>
+      <div>
+        Direccion: 
+        Address
+      </div>
+      <div>
+        Telefono: 
+        Phone
+      </div>
+      <div>
+        Ciudad: 
+        City
+      </div>
+      <div>
+        Nombre: 
+        First Name
+      </div>
+      <div>
+        Apellido: 
+        Last Name
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq fjwiTM"
+    >
+      <button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Editar
+      </button>
+    </div>
+  </div>,
+  <div
+    className="sc-eCstlR eYWUDk"
+  >
+    <div>
+      <div>
+        Direccion: 
+        Address 2
+      </div>
+      <div>
+        Telefono: 
+        Phone 2
+      </div>
+      <div>
+        Ciudad: 
+        City 2
+      </div>
+      <div>
+        Nombre: 
+        First Name 2
+      </div>
+      <div>
+        Apellido: 
+        Last Name 2
+      </div>
+    </div>
+    <div
+      className="sc-jSgvzq fjwiTM"
+    >
+      <button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Editar
+      </button>
+    </div>
+  </div>,
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Crear nuevo cliente
+  </button>,
+]
+`;

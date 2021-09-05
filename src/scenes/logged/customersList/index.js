@@ -1,4 +1,7 @@
+import React from 'react';
+
 import useCustomersList from '../../../hooks/useCustomersList';
+
 import CustomersList from './customerList';
 
 /**

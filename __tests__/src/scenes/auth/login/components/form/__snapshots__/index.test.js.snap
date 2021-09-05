@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login form component render login form component 1`] = `
+<div
+  className="sc-bdfBQB lgbBAZ"
+>
+  <div
+    className="sc-gsTEea ipUvat"
+  >
+    <div
+      className="sc-dlfnuX khnmHO"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Telefono"
+        type="text"
+        value="+5748545852"
+      />
+    </div>
+    <div
+      className="sc-dlfnuX khnmHO"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Contraseña"
+        type="password"
+        value="123456789"
+      />
+    </div>
+    <div
+      className="sc-hKgJUU fXEUha"
+    >
+      <button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Iniciar Sesión
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component render select component 1`] = `
+<select
+  onChange={[Function]}
+  value="A"
+>
+  <option
+    value="A"
+  >
+    CASE A
+  </option>
+  <option
+    value="B"
+  >
+    CASE B
+  </option>
+</select>
+`;
