@@ -50,3 +50,12 @@ export const CreateBox = styled.div`
     justify-content: center;
     position: absolute;
 `;
+
+export const ButtonField = styled.button`
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 0px 10px;
+`;

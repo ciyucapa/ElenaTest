@@ -12,11 +12,11 @@ const CustomersList = (props) => (
         {props.customers.map((customer) => (
             <ListBox key={customer.id} >
                 <div>
+                    <div>Nombre: {customer.firstName}</div>
+                    <div>Apellido: {customer.lastName}</div>
                     <div>Direccion: {customer.address}</div>
                     <div>Telefono: {customer.cellphone}</div>
                     <div>Ciudad: {customer.city}</div>
-                    <div>Nombre: {customer.firstName}</div>
-                    <div>Apellido: {customer.lastName}</div>
                 </div>
                 <ButtonListBox>
                     <Button text="Editar" onClick={() => props.toCustomerEdit(customer.id)}/>

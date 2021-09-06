@@ -1,16 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import {ButtonField} from '../styledComponents';
+
 /**
  * Componente que renderiza un boton basico
  */
 const Button = (props) => (
-    <button 
+    <ButtonField 
         onClick={props.onClick} 
         disabled={props.isDisabled}  
     >
         {props.text}
-    </button>
+    </ButtonField>
 );
 
 Button.propTypes = {
