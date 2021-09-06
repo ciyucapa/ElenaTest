@@ -39,6 +39,7 @@ exports[`Customer create form component render Customer create form component 1`
     value="test"
   />
   <button
+    className="sc-iBPTik xaJDg"
     disabled={true}
     onClick={[Function]}
   >

@@ -2,15 +2,7 @@
 
 exports[`Button component render button component 1`] = `
 <button
-  disabled={false}
-  onClick={[Function]}
->
-  button title
-</button>
-`;
-
-exports[`Button component renderbutton component 1`] = `
-<button
+  className="sc-iBPTik xaJDg"
   disabled={false}
   onClick={[Function]}
 >
