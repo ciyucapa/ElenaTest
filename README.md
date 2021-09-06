@@ -4,6 +4,7 @@ Reto técnico CRUD para clientes.
 ## Pre-requisitos
 
 ### Dependencias
+```
 "dependencies": {
     "@apollo/client": "^3.4.10",
     "@testing-library/jest-dom": "^5.11.4",
@@ -18,6 +19,7 @@ Reto técnico CRUD para clientes.
     "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1"
   },
+```
 
 ### Instalación
 npm i
